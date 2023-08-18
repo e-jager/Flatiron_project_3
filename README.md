@@ -1,4 +1,5 @@
 # Predicting the condition of water wells in Tanzania
+**Author: Em Jager, Columbia University**
 
 ## Overview
 Tanzania, considered a developing country, struggles with providing access to clean water to its population of 57 million people. The country already has a large amount of water access sites in place, however some require maintenance and others are not functioning and need complete repair or replacement. Here, based on my analysis, I will demonstrate a classifing model that is able to predict the condition of a water well, using information about the type of pump, when it was installed, and location details in order to assist the Tanzanian government in prioritizing locations for providing resources and teams to repair water wells. This information will also be able to recommend for the future which types of pumps and what conditions should be considered when installing brand new wells across the country. 
