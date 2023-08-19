@@ -55,6 +55,24 @@ source_class - The source of the water\
 waterpoint_type - The kind of waterpoint\
 waterpoint_type_group - The kind of waterpoint
 
+### What features are relevant to the analysis of well function?
+**Installer** - it's possible that there are some installers that do a less quality job of installing the water pumps, therefore there is a higher chance of them being non functional
+
+**Scheme management** - who operates the waterpoint could influence whether it is functional, some groups may do a better job than others at managing and maintaining the waterpoint
+
+**Construction year** - older waterpoints may be more likely to need repair. Additionally, year could be incorporated into the analysis of other variables because other variables could affect the lifespan of a water pump
+
+**Extraction type** - the type of water pump should be investigated in case some types last longer than others or are more likely to be functional
+
+**Management or management group** - how the waterpoint is managed
+
+**Quantity** - if the waterpoint is dry that seems like an obvious indicator that it may not be functional
+
+**Source** - 
+
+**Waterpoint type** - the kind of waterpoint could have an affect on the lifespan of the waterpoint
+
+
 ## Methods
 
 ## Key Statistics & Analysis
