@@ -5,6 +5,7 @@
 Tanzania, considered a developing country, struggles with providing access to clean water to its population of 57 million people. The country already has a large amount of water access sites in place, however some require maintenance and others are not functioning and need complete repair or replacement. Here, based on my analysis, I will demonstrate a classifing model that is able to predict the condition of a water well, using information about the type of pump, when it was installed, and location details in order to assist the Tanzanian government in prioritizing locations for providing resources and teams to repair water wells. This information will also be able to recommend for the future which types of pumps and what conditions should be considered when installing brand new wells across the country. 
 
 ## Business Understanding
+I was hired by an NGO that works on environmental and development projects across South America, and they are beginning to expand their work to Africa, starting with Tanzania. In order to begin this work, they want to be able to identify waterpump sites that need repairs. My role in this is to analyze data collected by the Tanzanian government on water pump sites with many categorical variables and to sort through them to discover what are the most important variables that seem to affect whether a water pump is functioning or not. 
 
 ## The Data
 
@@ -74,6 +75,7 @@ waterpoint_type_group - The kind of waterpoint
 
 
 ## Methods
+In order to identify the most important categorical variables that affect whether a water pump is functioning or not, I first did research on what each variable represents and prioritized for anaylsis the variables that logically could have an affect on the functioning of the water pump. 
 
 ## Key Statistics & Analysis
 
