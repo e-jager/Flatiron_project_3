@@ -1,6 +1,9 @@
 # Predicting the condition of water wells in Tanzania
 **Author: Em Jager**
 
+![water_fill](https://github.com/e-jager/Flatiron_project_3/assets/137834860/6cba784f-faf0-4b8e-accf-3c43cf34192c)
+
+
 ## Overview
 Tanzania, considered a developing country, struggles with providing access to clean water to its population of 63.6 million people. According to the World Bank, 61% of households in Tanzania have access to a basic water supply. The country has a large amount of water access sites in place, however some require maintenance and others are not functioning and need complete repair or replacement. In this project, I built a classifing model that is able to predict the condition of a water well, using categorical information about the waterpoint including type of pump, when it was installed, and location details in order to assist the Tanzanian government in prioritizing locations for providing resources and teams to repair water wells. This information will also be able to recommend for the future which types of pumps and what conditions should be considered when installing brand new wells across the country. 
 
