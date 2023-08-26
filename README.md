@@ -77,6 +77,8 @@ From these categories I chose to focus my analysis on: quantity, waterpoint type
 ## Methods
 I explored several options for models, and ultimately the final model I used is a Decision Tree Model. A decision tree model is a predictive algorithm that uses a tree-like structure to make decisions based on input features. It recursively partitions the data into subsets, aiming to find the most discriminative feature at each step and ultimately leading to leaf nodes that represent predicted outcomes. Prior to running the model I used OneHotEncoder to convert the categorical variables into binary columns for each category within the variable. I also concatenated to the categorical data the numerical data for construction year to include in the model. 
 
+## Key Statistics & Analysis
+
 The following are the results of the Decision Tree Model:
 Accuracy: 0.8325936883629191
 Precision: 0.9119150609516319
@@ -84,10 +86,36 @@ Recall: 0.8359769286229272
 
 Based on the accuracy score, the model is able to predict 83.26% of outcomes correctly. The precision tells us that the model predicts 91.19% positive outcomes correctly, or the ability to avoid false positives. The recall tells us the ability of the model to avoid false negatives is 83.60%. The confusion matrix below also shows these results.  
 
-## Key Statistics & Analysis
+![conf_readme](https://github.com/e-jager/Flatiron_project_3/assets/137834860/d55e23f4-de15-4018-9869-d225cf4db77d)
 
 ## Recommendations
+![importance_final](https://github.com/e-jager/Flatiron_project_3/assets/137834860/26bdcc56-f642-42a6-9cf3-54f7f12607ba)
+
+The top predictors of waterpoint functioning status according to my model are quantity (output of the pumps), waterpoint type, payment type and construction year. 
+
+![quantity_final](https://github.com/e-jager/Flatiron_project_3/assets/137834860/90b91cb7-4a69-4aac-8616-bf0ed8cc6ce7)
+
+Quantity as a predictor makes a lot of logical sense, if we have data on how much the waterpoint is outputting we can easily predict whether it is working or not. If the pump is indicated as dry, it's a pretty safe assumption that it's not working and if it is insufficient, it may be working or not but it probably needs repair. 
+
+![waterpoint_final](https://github.com/e-jager/Flatiron_project_3/assets/137834860/e94060a9-721d-4a03-8ae8-a90681472082)
+
+Waterpoint type was the second most important predictor in the model although from these categories it isn't obviously clear which type of waterpoint is more functioning than the others. 
+
+![payment_final](https://github.com/e-jager/Flatiron_project_3/assets/137834860/b8e2aff3-1dac-4ca8-87ad-dce4db618326)
+
+Payment type is the third most important predictor in the model. Some waterpoints require payment for the water and this may be a good indicator of whether the well is upkept and remains functioning. However, the ethics of paying for water might be a concern and might incentivize the government to subsidize water for certain populations to ensure access to water for all households. 
 
 ## Next Steps
+For next steps, I would recommend collecting new data since the dataset from TAARIFA is only through 2013. A lot more water pumps have been built since then and a lot more might have broken down and need repair now. I could then use the model to predict and prioritize waterpoint repairs and next to use the data to find what types of water pumps perform best and are functioning over time
 
 ## Repository Structure
+
+```
+├── Archive items
+├── Data
+├── Images
+├── .gitignore
+├── Data_Analysis_final.ipynb
+├── README.md
+└── presentation.pdf
+```
